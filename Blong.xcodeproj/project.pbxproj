@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33E7B5561B2DF86500DCC807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E7B5551B2DF86500DCC807 /* AppDelegate.swift */; };
+		33E7B5581B2DF86500DCC807 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 33E7B5571B2DF86500DCC807 /* GameScene.sks */; };
+		33E7B55A1B2DF86500DCC807 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E7B5591B2DF86500DCC807 /* GameScene.swift */; };
+		33E7B55C1B2DF86500DCC807 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E7B55B1B2DF86500DCC807 /* GameViewController.swift */; };
+		33E7B55F1B2DF86500DCC807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E7B55D1B2DF86500DCC807 /* Main.storyboard */; };
+		33E7B5611B2DF86500DCC807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E7B5601B2DF86500DCC807 /* Assets.xcassets */; };
+		33E7B5641B2DF86500DCC807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E7B5621B2DF86500DCC807 /* LaunchScreen.storyboard */; };
+		33E7B56F1B2DF86500DCC807 /* BlongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E7B56E1B2DF86500DCC807 /* BlongTests.swift */; };
+		33E7B57A1B2DF86500DCC807 /* BlongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E7B5791B2DF86500DCC807 /* BlongUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33E7B56B1B2DF86500DCC807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E7B54A1B2DF86500DCC807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E7B5511B2DF86500DCC807;
+			remoteInfo = Blong;
+		};
+		33E7B5761B2DF86500DCC807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E7B54A1B2DF86500DCC807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E7B5511B2DF86500DCC807;
+			remoteInfo = Blong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33E7B5521B2DF86500DCC807 /* Blong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E7B5551B2DF86500DCC807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33E7B5571B2DF86500DCC807 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		33E7B5591B2DF86500DCC807 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		33E7B55B1B2DF86500DCC807 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		33E7B55E1B2DF86500DCC807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33E7B5601B2DF86500DCC807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33E7B5631B2DF86500DCC807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33E7B5651B2DF86500DCC807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E7B56A1B2DF86500DCC807 /* BlongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E7B56E1B2DF86500DCC807 /* BlongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlongTests.swift; sourceTree = "<group>"; };
+		33E7B5701B2DF86500DCC807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E7B5751B2DF86500DCC807 /* BlongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E7B5791B2DF86500DCC807 /* BlongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlongUITests.swift; sourceTree = "<group>"; };
+		33E7B57B1B2DF86500DCC807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33E7B54F1B2DF86500DCC807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7B5671B2DF86500DCC807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7B5721B2DF86500DCC807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33E7B5491B2DF86500DCC807 = {
+			isa = PBXGroup;
+			children = (
+				33E7B5541B2DF86500DCC807 /* Blong */,
+				33E7B56D1B2DF86500DCC807 /* BlongTests */,
+				33E7B5781B2DF86500DCC807 /* BlongUITests */,
+				33E7B5531B2DF86500DCC807 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33E7B5531B2DF86500DCC807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33E7B5521B2DF86500DCC807 /* Blong.app */,
+				33E7B56A1B2DF86500DCC807 /* BlongTests.xctest */,
+				33E7B5751B2DF86500DCC807 /* BlongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33E7B5541B2DF86500DCC807 /* Blong */ = {
+			isa = PBXGroup;
+			children = (
+				33E7B5551B2DF86500DCC807 /* AppDelegate.swift */,
+				33E7B5571B2DF86500DCC807 /* GameScene.sks */,
+				33E7B5591B2DF86500DCC807 /* GameScene.swift */,
+				33E7B55B1B2DF86500DCC807 /* GameViewController.swift */,
+				33E7B55D1B2DF86500DCC807 /* Main.storyboard */,
+				33E7B5601B2DF86500DCC807 /* Assets.xcassets */,
+				33E7B5621B2DF86500DCC807 /* LaunchScreen.storyboard */,
+				33E7B5651B2DF86500DCC807 /* Info.plist */,
+			);
+			path = Blong;
+			sourceTree = "<group>";
+		};
+		33E7B56D1B2DF86500DCC807 /* BlongTests */ = {
+			isa = PBXGroup;
+			children = (
+				33E7B56E1B2DF86500DCC807 /* BlongTests.swift */,
+				33E7B5701B2DF86500DCC807 /* Info.plist */,
+			);
+			path = BlongTests;
+			sourceTree = "<group>";
+		};
+		33E7B5781B2DF86500DCC807 /* BlongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33E7B5791B2DF86500DCC807 /* BlongUITests.swift */,
+				33E7B57B1B2DF86500DCC807 /* Info.plist */,
+			);
+			path = BlongUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33E7B5511B2DF86500DCC807 /* Blong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E7B57E1B2DF86500DCC807 /* Build configuration list for PBXNativeTarget "Blong" */;
+			buildPhases = (
+				33E7B54E1B2DF86500DCC807 /* Sources */,
+				33E7B54F1B2DF86500DCC807 /* Frameworks */,
+				33E7B5501B2DF86500DCC807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blong;
+			productName = Blong;
+			productReference = 33E7B5521B2DF86500DCC807 /* Blong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33E7B5691B2DF86500DCC807 /* BlongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E7B5811B2DF86500DCC807 /* Build configuration list for PBXNativeTarget "BlongTests" */;
+			buildPhases = (
+				33E7B5661B2DF86500DCC807 /* Sources */,
+				33E7B5671B2DF86500DCC807 /* Frameworks */,
+				33E7B5681B2DF86500DCC807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E7B56C1B2DF86500DCC807 /* PBXTargetDependency */,
+			);
+			name = BlongTests;
+			productName = BlongTests;
+			productReference = 33E7B56A1B2DF86500DCC807 /* BlongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33E7B5741B2DF86500DCC807 /* BlongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E7B5841B2DF86500DCC807 /* Build configuration list for PBXNativeTarget "BlongUITests" */;
+			buildPhases = (
+				33E7B5711B2DF86500DCC807 /* Sources */,
+				33E7B5721B2DF86500DCC807 /* Frameworks */,
+				33E7B5731B2DF86500DCC807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E7B5771B2DF86500DCC807 /* PBXTargetDependency */,
+			);
+			name = BlongUITests;
+			productName = BlongUITests;
+			productReference = 33E7B5751B2DF86500DCC807 /* BlongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33E7B54A1B2DF86500DCC807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Paul Lozada";
+				TargetAttributes = {
+					33E7B5511B2DF86500DCC807 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					33E7B5691B2DF86500DCC807 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 33E7B5511B2DF86500DCC807;
+					};
+					33E7B5741B2DF86500DCC807 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 33E7B5511B2DF86500DCC807;
+					};
+				};
+			};
+			buildConfigurationList = 33E7B54D1B2DF86500DCC807 /* Build configuration list for PBXProject "Blong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33E7B5491B2DF86500DCC807;
+			productRefGroup = 33E7B5531B2DF86500DCC807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33E7B5511B2DF86500DCC807 /* Blong */,
+				33E7B5691B2DF86500DCC807 /* BlongTests */,
+				33E7B5741B2DF86500DCC807 /* BlongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33E7B5501B2DF86500DCC807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E7B5581B2DF86500DCC807 /* GameScene.sks in Resources */,
+				33E7B5641B2DF86500DCC807 /* LaunchScreen.storyboard in Resources */,
+				33E7B5611B2DF86500DCC807 /* Assets.xcassets in Resources */,
+				33E7B55F1B2DF86500DCC807 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7B5681B2DF86500DCC807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7B5731B2DF86500DCC807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33E7B54E1B2DF86500DCC807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E7B55A1B2DF86500DCC807 /* GameScene.swift in Sources */,
+				33E7B55C1B2DF86500DCC807 /* GameViewController.swift in Sources */,
+				33E7B5561B2DF86500DCC807 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7B5661B2DF86500DCC807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E7B56F1B2DF86500DCC807 /* BlongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E7B5711B2DF86500DCC807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E7B57A1B2DF86500DCC807 /* BlongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33E7B56C1B2DF86500DCC807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E7B5511B2DF86500DCC807 /* Blong */;
+			targetProxy = 33E7B56B1B2DF86500DCC807 /* PBXContainerItemProxy */;
+		};
+		33E7B5771B2DF86500DCC807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E7B5511B2DF86500DCC807 /* Blong */;
+			targetProxy = 33E7B5761B2DF86500DCC807 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33E7B55D1B2DF86500DCC807 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E7B55E1B2DF86500DCC807 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33E7B5621B2DF86500DCC807 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E7B5631B2DF86500DCC807 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33E7B57C1B2DF86500DCC807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33E7B57D1B2DF86500DCC807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33E7B57F1B2DF86500DCC807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Blong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lozada.Blong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33E7B5801B2DF86500DCC807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Blong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lozada.Blong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33E7B5821B2DF86500DCC807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lozada.BlongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blong.app/Blong";
+			};
+			name = Debug;
+		};
+		33E7B5831B2DF86500DCC807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lozada.BlongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blong.app/Blong";
+			};
+			name = Release;
+		};
+		33E7B5851B2DF86500DCC807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lozada.BlongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Blong;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		33E7B5861B2DF86500DCC807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlongUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lozada.BlongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Blong;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33E7B54D1B2DF86500DCC807 /* Build configuration list for PBXProject "Blong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E7B57C1B2DF86500DCC807 /* Debug */,
+				33E7B57D1B2DF86500DCC807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E7B57E1B2DF86500DCC807 /* Build configuration list for PBXNativeTarget "Blong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E7B57F1B2DF86500DCC807 /* Debug */,
+				33E7B5801B2DF86500DCC807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33E7B5811B2DF86500DCC807 /* Build configuration list for PBXNativeTarget "BlongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E7B5821B2DF86500DCC807 /* Debug */,
+				33E7B5831B2DF86500DCC807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33E7B5841B2DF86500DCC807 /* Build configuration list for PBXNativeTarget "BlongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E7B5851B2DF86500DCC807 /* Debug */,
+				33E7B5861B2DF86500DCC807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33E7B54A1B2DF86500DCC807 /* Project object */;
+}
